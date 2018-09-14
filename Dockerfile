@@ -8,4 +8,3 @@ RUN wget https://github.com/btobolaski/terraform-provider-linode/releases/downlo
     && rm -rf /tmp/* \
     && echo 'providers { linode = "/usr/bin/terraform-provider-linode" }' >> ~/.terraformrc
 
-RUN cat ~/.terraformrc
